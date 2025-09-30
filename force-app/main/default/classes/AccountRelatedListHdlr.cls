@@ -1,5 +1,5 @@
 /**
-* @File Name : AccountRelatedListHdlr.cls changed >>>>>>
+* @File Name : AccountRelatedListHdlr.cls changed >
 * @Description :
 * @Author :
 * @Last Modified By :
