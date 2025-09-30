@@ -1,0 +1,18 @@
+<template>
+    <lightning-button label="call parent/grandParent" title="Non-primary action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+record count = = {result}
+
+parent text: {parentText}
+<lightning-input
+        label="Year"
+        value={year}
+        type="text"
+        maxlength="4"
+        title="Please enter a 4-digit year."
+        onchange={handleInputChange}
+        required>
+    </lightning-input>
+    <template if:true={errorMessage}>
+        <div style="color: red;">{errorMessage}</div>
+    </template>
+</template>
